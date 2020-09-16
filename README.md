@@ -6,7 +6,7 @@ Exercise inspired from [this article here](https://medium.com/@amanusk/the-faste
 
 ### Start geth and unlock the accounts
 
-Please refer to the README for Geth on how to install and setup on your [local dev environment](./geth/dev/README.md) or to a [testnet environment]((./geth/ropsten/README.md)).
+Please refer to the README for Geth on how to install and setup on your [local dev environment](./geth/dev/README.md) or to a [testnet environment](./geth/ropsten/README.md).
 
 Run the command below. You will need to create your own accounts in Geth and unlock them.
 
