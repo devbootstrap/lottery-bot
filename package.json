@@ -1,0 +1,32 @@
+{
+  "name": "lottery-bot",
+  "version": "1.0.0",
+  "description": "A simple lottery bot example",
+  "main": "coonnect.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devbootstrap/lottery-bot.git"
+  },
+  "keywords": [
+    "bot",
+    "lottery",
+    "smart",
+    "contract",
+    "ethereum"
+  ],
+  "author": "Darren Jensen (darren.jensen@devbootstrap.com)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devbootstrap/lottery-bot/issues"
+  },
+  "homepage": "https://github.com/devbootstrap/lottery-bot#readme",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.0.43",
+    "dotenv": "^8.2.0",
+    "inquirer": "^7.3.3",
+    "web3": "^1.2.11"
+  }
+}
