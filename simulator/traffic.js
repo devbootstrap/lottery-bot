@@ -1,8 +1,9 @@
 const { web3 } = require('../bot/connect')
-const { accounts } = require('../bot/accounts') // unlocked accounts which will send the transaction
 
-function simulate() {
-  setTimeout(async function() {
+async function simulate() {
+  accounts = await web3.eth.getAccounts()
+
+  setTimeout(function() {
     let txId1 = web3.eth.sendTransaction({from: accounts[1], to: accounts[2], value: '10000000'})
     console.log('A sent B 10 Gwei', txId1.transactionHash)
 

@@ -67,7 +67,7 @@ txpool.inspect
 This simulates small transactions of ether between two accounts.
 
 ```
-node simulator/process
+node simulator/traffic
 ```
 
 ### Initialize the Bot
@@ -96,6 +96,7 @@ In truffle console window run. The winner should be the bot.
 
 ```
 sc = await SimpleCounter.deployed()
+(await sc.getCounter()).toString()
 counter = await sc.getCounter()
 sc.winners(counter)   // shows the address of that winner
 sc.winners(counter+1) // should be an unclaimed slot (address 0x0)
