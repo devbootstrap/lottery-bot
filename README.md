@@ -1,4 +1,4 @@
-# Lottery Sniper Bot
+# Lottery Bot
 
 Here is how to get this bot started on a development envirnoment.
 
